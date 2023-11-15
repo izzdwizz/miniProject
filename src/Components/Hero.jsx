@@ -1,10 +1,11 @@
 import React from 'react';
 import Nav from './Nav';
 import star from '../assets/emojione_star.svg';
+import pen from '../assets/PencilAlt.svg';
 import human from '../assets/hero-image 1.png';
 const Hero = () => {
 	return (
-		<div className=' bg-gradient-to-b from-[#6F7DFB] to-[#26308C] px-[7.25rem] pt-[1.7rem] h-[48rem]'>
+		<div className=' bg-gradient-to-b from-[#6F7DFB] to-[#26308C] md:px-[7.25rem] pt-[1.7rem] h-[48rem]'>
 			<Nav />
 
 			<div className='flex flex-row gap-8 mt-[8rem]'>
@@ -22,6 +23,9 @@ const Hero = () => {
 					</p>
 					<button className='inline-flex px-8 py-4 items-center gap-[0.625rem] rounded-3xl bg-[#DA722C] text-white text-[1.125rem] font-[700] hover:scale-[1.07] ease-in duration-200 cursor-pointer'>
 						{' '}
+						<span>
+							<img src={pen} alt='pen icon' className='w-[1.5rem] h-[1.5rem]' />
+						</span>
 						Enrol Now
 					</button>
 				</div>
@@ -48,11 +52,11 @@ const Hero = () => {
 						<p>Overall Rating</p>
 					</div>
 				</div>
-				<div className='relative bottom-[1.5rem]'>
+				<div className='relative bottom-[0.775rem]'>
 					<img
 						src={human}
 						alt='hero'
-						className='md:w-[27.875rem] md:h-[36.37rem] shrink-0'
+						className='md:w-[27.875rem] md:h-[35.37rem] shrink-0'
 					/>
 				</div>
 			</div>

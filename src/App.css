@@ -60,3 +60,7 @@
 	border-radius: inherit;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Simulated shadow effect */
 }
+
+.shadow_box {
+	box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.2);
+}
