@@ -48,7 +48,7 @@
 	content: '';
 	position: absolute;
 	top: 5px; /* Adjust positioning as needed */
-	left: 5px; /* Adjust positioning as needed */
+	left: 8px; /* Adjust positioning as needed */
 	right: 5px; /* Adjust positioning as needed */
 	bottom: 5px; /* Adjust positioning as needed */
 	z-index: -10;
@@ -64,3 +64,9 @@
 .back-shadow {
 	background: lightgray 50% / cover no-repeat;
 }
+
+/* .grid_default{
+
+	display: grid;
+grid-template-columns: repeat(auto-fit,min-max(auto-fit, 1r));
+} */

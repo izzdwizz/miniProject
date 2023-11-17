@@ -6,12 +6,12 @@ import clock from '../assets/Clock.svg';
 const SectionTwo = () => {
 	return (
 		<div>
-			<div className=' bg-gradient-to-b from-[#6F7DFB] to-[#26308C] md:px-[7.25rem]  h-[48rem] flex flex-col items-center justify-start'>
+			<div className=' bg-gradient-to-b from-[#6F7DFB] to-[#26308C] md:px-[7.25rem] md:pb-[7rem]   flex flex-col items-center justify-start'>
 				<h2 className='text-white md:w-[32.75rem] items-start gap-[.625rem] flex text-[3.75rem] font-[900] mt-[5rem] mb-[5rem] leading-[4.5rem] text-center md:ml-[6rem]'>
 					{' '}
 					Our Courses
 				</h2>
-				<div className='flex flex-row gap-[6rem]'>
+				<div className='flex lg:flex-row flex-col gap-[6rem]'>
 					<div className='flex flex-col items-start gap-[1.88rem] py-0 px-8  md:w-[32.875rem] bg-white rounded-3xl relative overflow-hidden'>
 						<img
 							src={unity}

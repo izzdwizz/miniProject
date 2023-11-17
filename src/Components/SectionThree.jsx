@@ -4,7 +4,7 @@ import android from '../assets/Vector.svg';
 const SectionThree = () => {
 	return (
 		<div>
-			<div className='flex flex-col items-center justify-center mt-[6.25rem]'>
+			<div className='flex flex-col items-center justify-center mt-[6.25rem] mb-[5.5rem]'>
 				<div>
 					<h3 className='text-[#023047] gap-[0.625rem] md:w-[42.5rem] text-center text-[3.75rem] font-[900] leading-[4.5rem]'>
 						Get our App
